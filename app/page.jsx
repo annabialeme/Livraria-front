@@ -5,7 +5,7 @@ import SocialCard from "../components/LivrariaCard";
 import styles from "../styles/Section.module.css";
 
 
-export default function Home() {
+export default function Home({ livros, lançamentos, socialList  }) {
   return(
     <div>
       <Header />
@@ -16,9 +16,9 @@ export default function Home() {
 
       <footer>
         <ul className="footer">
-          {socialList.map((social, index) => (
-            <SocialCard key={index} link={social.link} color={social.color} svg={social.svg} />
-          ))}
+        {Array.isArray(socialList) && socialList.map((social, index) => (
+  <SocialCard key={index} link={social.link} color={social.color} svg={social.svg} />
+))}
         </ul>
       </footer>
     </div>
