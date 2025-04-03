@@ -6,6 +6,7 @@ import styles from "../styles/Section.module.css";
 import {livros} from "../data/livros"
 import {autores} from "../data/autores"
 import { socialList } from "../data/socialList"; 
+import LivrariaCard from "../components/LivrariaCard";
 
 export default function Home({ livros, lançamentos, socialList, img }) { 
   return( 
