@@ -1,13 +1,12 @@
-import styles from  "../styles/Section.module.css";
-import LivrariaCard from "../components/LivrariaCard";
+import styles from "../styles/LivrariaCard.module.css";
 
-
-export default function Section ({ title, description, data }) {
+export default function LivrariaCard ({ name, link, className}) {
     return (
-        <section className={styles.section}>
-            <div className={styles.content}>
-                <h2></h2>
-            </div>
-        </section>
-    );
+        <li className={`${styles.card}${className || ""}`}>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <h2>teste</h2>
+                <p>{name}</p>
+            </a>
+        </li>
+    )
 }
