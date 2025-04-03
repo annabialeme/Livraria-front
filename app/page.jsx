@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Section from "../components/Section";
 import SocialCard from "../components/LivrariaCard";
-
 import styles from "../styles/Section.module.css";
 
 
