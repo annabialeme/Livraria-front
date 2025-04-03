@@ -1,13 +1,12 @@
 import Header from "../components/Header"; 
 import Section from "../components/Section"; 
 import SocialCard from "../components/LivrariaCard"; 
-
 import styles from "../styles/Section.module.css"; 
 import {livros} from "../data/livros"
 import {autores} from "../data/autores"
 import { socialList } from "../data/socialList"; 
 
-export default function Home({ livros, lançamentos, socialList, img }) { 
+export default function Home({ livros, lançamentos, socialList, img}) { 
   return( 
   <div> 
     
@@ -24,6 +23,8 @@ export default function Home({ livros, lançamentos, socialList, img }) {
         ))} 
           </ul> 
         </footer> 
+
+  
       </div> 
     );
     }
