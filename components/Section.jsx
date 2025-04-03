@@ -8,8 +8,8 @@ export default function Section ({ title, description, data, cardClassName}) {
                 <h2>{title}</h2>
                 <p>{description}</p>
                 <ul className={styles.list} >
-                    {data.map((item) => (
-                        <LivrariaCard key={item.name} {...item} className={cardClassName} />
+                {Array.isArray(data) && data.map((item) => (
+                <LivrariaCard key={item.name} {...item} className={cardClassName} />
                     ))}
                 </ul>
             </div>
