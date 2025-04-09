@@ -1,4 +1,4 @@
-import "./globals.css"
+import "./globals.css";
 
 export const metadata = {
     title: "Components Activity",
@@ -7,9 +7,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
-            <body>{children}</body>
+        <html lang="pt-br">
+            <head>
+                <title>{metadata.title}</title>
+                <meta name="description" content={metadata.description} />
+            </head>
+            <body className="root-layout">
+                {children}
+            </body>
         </html>
     );
 }
-
