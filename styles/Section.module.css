@@ -1,14 +1,35 @@
 .section {
-    text-align: center;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 15px;
-    margin: 1rem 5rem;
-}
-
-.list {
+    background-color: #f9f9f9;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .cardList {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    padding: 1rem 0;
-}
+  }
+  
+  .card {
+    flex: 1 1 calc(25% - 20px);
+    max-width: 300px;
+  }
