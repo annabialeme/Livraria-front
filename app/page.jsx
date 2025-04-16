@@ -35,21 +35,10 @@ export default function Home() {
         />
       </main>
 
-      <Form />
       
-      <footer>
-        <ul className="footer">
-          {Array.isArray(socialList) &&
-            socialList.map((social, index) => (
-              <SocialCard
-                key={index}
-                link={social.link}
-                color={social.color}
-                svg={social.svg}
-              />
-            ))}
-        </ul>
-      </footer>
+   
+        <Footer />
+     
     </div>
   );
 }
