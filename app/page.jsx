@@ -1,15 +1,16 @@
 import Header from "../components/Header";
 import Section from "../components/Section";
-import SocialCard from "../components/SocialCard"; 
 import Banner from "../components/Banner"
 import CategoriaCard from "../components/CategoriaCard"
 import CategoriaPopular from "../components/CategoriaPopular"
+import Form from "../components/Form"
+import Footer from "../components/Footer";
 
 
 import styles from "../styles/Section.module.css";
 import { livros } from "../data/livros";
 import { autores } from "../data/autores";
-import Footer from "@/components/Footer";
+
 
 
 export default function Home() {
@@ -35,7 +36,9 @@ export default function Home() {
           data={autores} 
           cardClassName={styles.roundedCard}
         />
+        
       </main>
+      <Form />
       <Footer/>
       
     </div>
