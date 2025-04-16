@@ -2,6 +2,8 @@ import Header from "../components/Header";
 import Section from "../components/Section";
 import SocialCard from "../components/SocialCard"; 
 import Banner from "../components/Banner"
+import CategoriaCard from "../components/CategoriaCard"
+import CategoriaPopular from "../components/CategoriaPopular"
 
 
 import styles from "../styles/Section.module.css";
@@ -15,6 +17,8 @@ export default function Home() {
       <Header />
 
       <Banner />
+      <CategoriaCard />
+      <CategoriaPopular />
       <main>
         <Section
           title="Nossos livros"
