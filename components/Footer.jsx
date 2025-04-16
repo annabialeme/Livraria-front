@@ -1,14 +1,15 @@
-import '../styles/Footer.module.css';
+import React from "react";
+import styles from '../styles/Footer.module.css';
 
 export default function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-section">
+    <footer className={styles.footer}>
+      <div className={styles.footerSection}>
         <h3>BookVerse</h3>
         <p>Onde histórias ganham vida</p>
         <p>A BookVerse é uma livraria online que conecta leitores ávidos com os melhores e mias diversos</p>
       </div>
-      <div className="footer-section">
+      <div className={styles.footerSection}>
         <h3> Links Rápidos</h3>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -19,7 +20,7 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div className="footer-section">
+      <div className={styles.footerSection}>
         <h3>Categorias</h3>
         <ul>
           <li><a href="#ficcao-cientifica">Ficção Científica</a></li>
@@ -29,7 +30,7 @@ export default function Footer() {
           <li><a href="#historia">História</a></li>
         </ul>
       </div>
-      <div className="footer-section">
+      <div className={styles.footerSection}>
         <h3>Redes Sociais</h3>
         <ul>
           <li><a href="#instagram">Instagram</a></li>
@@ -38,7 +39,7 @@ export default function Footer() {
           <li><a href="#youtube">Youtube</a></li>
         </ul>
       </div>
-      <div className="footer-bottom">
+      <div className={styles.footerBottom}>
        <p>© 2023 BookVerse. Todos os direitos reservados.</p>
         <ul>
           <li><a href="#privacidade">Política de Privacidade</a></li>

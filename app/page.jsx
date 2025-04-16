@@ -17,9 +17,9 @@ export default function Home() {
   return (
     <div>
       <Header />
-
-      <Banner />
+      
       <CategoriaCard />
+      <Banner />
       <CategoriaPopular />
   
 
