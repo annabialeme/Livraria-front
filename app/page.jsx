@@ -9,7 +9,8 @@ import CategoriaPopular from "../components/CategoriaPopular"
 import styles from "../styles/Section.module.css";
 import { livros } from "../data/livros";
 import { autores } from "../data/autores";
-import { socialList } from "../data/socialList";
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Banner />
       <CategoriaCard />
       <CategoriaPopular />
+  
 
       <main>
         <Section
@@ -34,11 +36,8 @@ export default function Home() {
           cardClassName={styles.roundedCard}
         />
       </main>
-
+      <Footer/>
       
-   
-        <Footer />
-     
     </div>
   );
 }
