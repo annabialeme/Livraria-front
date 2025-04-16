@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Form.module.css"
 
 
-export default function() {
+export default function Form() {
     return(
         <div className={styles.form}>
             <h2>Fique por dentro das novidades</h2>

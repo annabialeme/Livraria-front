@@ -19,6 +19,7 @@ export default function Home() {
       <Banner />
       <CategoriaCard />
       <CategoriaPopular />
+
       <main>
         <Section
           title="Nossos livros"
@@ -34,8 +35,8 @@ export default function Home() {
         />
       </main>
 
-    
-
+      <Form />
+      
       <footer>
         <ul className="footer">
           {Array.isArray(socialList) &&
