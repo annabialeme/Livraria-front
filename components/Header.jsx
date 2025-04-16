@@ -1,20 +1,26 @@
-import styles from "../styles/Header.module.css";
+import React from "react";
+
+import styles from "../styles/Header.module.css"
 
 export default function Header() {
-    return (
-        <header className={styles.header}>
-            <div className={styles.profile}>
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmyloview.com.br%2Fadesivo-livraria-emblema-vintage-no-68DC808&psig=AOvVaw2YcDqmhmrsKe3hg90OimDb&ust=1743768930092000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiW2PTru4wDFQAAAAAdAAAAABAE"></img>
-            </div>
-            <nav className={styles.nav}>
-        <ul className={styles.menu}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#contact">Contato</a></li>
-          
+  return (
+    <header className={styles.header}>
+      <div className={styles.logo}>BookVerse</div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#livros">Livros</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#autotes">Autores</a></li>
+          <li><a href="#ofertas">Ofertas</a></li>
         </ul>
       </nav>
-        </header>
-    )
+      <div className={styles.icons}>
+        <input type="text" placeholder="Buscar" />
+        <span className="favorites">🤍</span>
+        <span className="cart">🛒</span>
+        <span className="profile">👨🏻‍🦲</span>
+      </div>
+    </header>
+  )
 }
