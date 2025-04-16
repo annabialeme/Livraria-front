@@ -5,7 +5,7 @@ import styles from "../styles/Header.module.css"
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>BookVerse</div>
+      <div className={styles.logo}>BookVerse📚</div>
       <nav>
         <ul>
           <li><a href="#inicio">Início</a></li>
