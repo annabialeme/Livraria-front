@@ -34,6 +34,8 @@ export default function Home() {
         />
       </main>
 
+    
+
       <footer>
         <ul className="footer">
           {Array.isArray(socialList) &&

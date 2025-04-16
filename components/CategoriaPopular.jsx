@@ -19,7 +19,6 @@ export default function CategoriasPopulares() {
         <section className="popular">
             <div className="header">
                 <h2>Categorias Populares</h2>
-                <a href="#ver-todas">Ver todas</a>
             </div>
 
             <div className="grid">
