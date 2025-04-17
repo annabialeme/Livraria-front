@@ -1,0 +1,36 @@
+.form {
+    background-color: #2d8659;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form h2 {
+    margin-bottom: 10px;
+}
+
+.form p {
+    margin-bottom: 20px;
+}
+
+.nesletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.button {
+    padding: 10px;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}

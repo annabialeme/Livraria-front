@@ -1,0 +1,18 @@
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #97d9a8;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.banner button {
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    background-color: #2d8659;
+    border-radius: 5px;
+}

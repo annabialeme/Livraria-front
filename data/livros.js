@@ -1,7 +1,7 @@
 export const livros= [
     {
         name: "A cinco passos de você",
-        image: "https://static.wixstatic.com/media/742ca6_dabcb028d1764159b9735e2417e34b53~mv2.png/v1/fill/w_525,h_786,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/742ca6_dabcb028d1764159b9735e2417e34b53~mv2.png",
+        image: "https://static.wixstatic.com/media/742ca6_dabcb028d1764159b9735e2417e34b53~mv2.png/v1/fill/w_350,h_524,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/742ca6_dabcb028d1764159b9735e2417e34b53~mv2.png",
         link: "https://bskbooksmania.wixsite.com/booksmania/post/a-cinco-passos-de-voc%C3%AA-rachael-lippincott",
     },
     {
