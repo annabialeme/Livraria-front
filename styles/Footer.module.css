@@ -44,9 +44,9 @@
   padding-top: 10px;
   margin-top: 20px;
   text-align: center;
-  display: flex; /* Flexbox para centralizar */
-  justify-content: center; /* Centraliza os itens horizontalmente */
-  align-items: center; /* Centraliza os itens verticalmente */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .footerBottom ul {
