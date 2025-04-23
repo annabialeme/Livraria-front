@@ -40,7 +40,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className={styles.footerBottom}>
-       <p>© 2023 BookVerse. Todos os direitos reservados.</p>
+       <p>© 2025 BookVerse. Todos os direitos reservados.</p>
         <ul>
           <li><a href="#privacidade">Política de Privacidade</a></li>
           <li><a href="#termos">Termos de Uso</a></li>

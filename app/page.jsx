@@ -4,6 +4,7 @@ import Banner from "../components/Banner"
 import CategoriaCard from "../components/CategoriaCard"
 import Form from "../components/Form"
 import Footer from "../components/Footer";
+import Destaques from "../components/Destaques"
 
 
 import styles from "../styles/Section.module.css";
@@ -17,7 +18,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      
       <CategoriaCard />
       <Banner />
       <main>
