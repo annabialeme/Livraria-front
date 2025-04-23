@@ -11,7 +11,7 @@
 
 .icon .card {
     margin-bottom: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .card p {
